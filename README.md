@@ -4,6 +4,7 @@ A CLI utility to convert Word, Excel and Powerpoint files to PDF
 
 ## How to use
 - Open up Powershell (tested on v5 to v7)
+- Run this command to grant Powershell scripts executable permission - `powershell.exe -ExecutionPolicy Bypass -File ".\convert2pdf.ps1"`
 - Navigate to the directory the `convert2pdf.ps1` file is located in
 - `.\convert2pdf.ps1 "Path"`
 
